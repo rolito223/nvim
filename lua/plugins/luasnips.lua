@@ -66,7 +66,7 @@ cmp.setup({
       end
     end, {'i', 's'}),
 
-    ['<Tab>'] = cmp.mapping(function(fallback)
+    ['<C-a-Tab>'] = cmp.mapping(function(fallback)
       local col = vim.fn.col('.') - 1
 
       if cmp.visible() then

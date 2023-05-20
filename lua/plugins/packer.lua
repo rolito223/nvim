@@ -6,6 +6,7 @@ end
 
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
+	use 'github/copilot.vim'
 	use 'Shatur/neovim-ayu'
 	use 'feline-nvim/feline.nvim'
 	use 'nvim-tree/nvim-web-devicons'
