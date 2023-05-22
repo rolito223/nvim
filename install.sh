@@ -7,7 +7,7 @@ sudo apt-get install -y nodejs
 
 echo "Installing Neovim, cloning repo and installing plugins"
 
-git clone https://github.com/rolito223/nvim.git ~/.config/nvim &&\ 
+git clone https://github.com/rolito223/nvim.git ~/.config/nvim
 
 mkdir ~/.local/bin
 
