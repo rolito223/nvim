@@ -21,4 +21,4 @@ sudo chmod +x ~/.local/bin/nvim
 
 nvim --headless +PackerInstall +qall
 
-echo "Now open NeoVim, run ':Copilot setup' in nvim and it's ready to GO!"
+echo "Now open NeoVim, run ':PackerInstall' and ':Copilot setup' and it's ready to GO!"
