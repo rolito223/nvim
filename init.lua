@@ -6,4 +6,4 @@ require ('plugins/feline')
 require ('plugins/nvim-tree')
 require ('plugins/tabby')
 require ('plugins/nvim-autopairs')
-require ('plugins/luasnips')
+

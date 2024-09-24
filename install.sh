@@ -13,12 +13,14 @@ fi
 
 wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.10.1/nvim.appimage 
 
-export PATH=~/.local/bin:$PATH
+sudo apt install xclip python3-pip
 
-ln -n ~/.local/bin/nvim.appimage ~/.local/bin/nvim
+pip install neovim --break-system-packages
 
 sudo chmod +x ~/.local/bin/nvim
 
-nvim --headless +PackerInstall +qall
+ln -n ~/.local/bin/nvim.appimage ~/.local/bin/nvim
 
 echo "Now open NeoVim, run ':PackerInstall' and ':Copilot setup' and it's ready to GO!"
+echo "Insert this line in your shell config file (.bashrc, .zshrc, etc):"
+echo "export PATH=~/.local/bin:$PATH"
